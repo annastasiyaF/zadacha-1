@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+    if (a == 2) {
+        printf("Двоечник");
+    }
+    if (a == 4 || a == 3) {
+        printf("Хорошист");
+    }
+    if (a == 5) {
+        printf("Отличник");
+    }
+    return 0;
+}
